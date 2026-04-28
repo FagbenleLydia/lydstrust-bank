@@ -1,0 +1,8 @@
+node_modules/
+
+# Real secrets — never commit
+.env
+.env.local
+
+# Allow the example file through
+!.env.example

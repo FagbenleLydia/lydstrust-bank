@@ -1,0 +1,21 @@
+# Claude Code — never commit
+.claude/
+
+# Environment variables — never commit real secrets
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+
+# Frontend build output
+frontend/dist/
+frontend/.vite/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
